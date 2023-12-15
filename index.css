@@ -1,0 +1,130 @@
+@font-face {
+    font-family: archivo;
+    src: url(fonts/Archivo-Medium.ttf);
+}
+@font-face {
+    font-family: archivo-light;
+    src: url(fonts/Archivo-Light.ttf);
+}
+
+
+body, html{
+    padding: 0px;
+    margin: 0px;
+    background-image:url(images/weather8.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+
+header{
+    font-family: 'Dancing Script', bold;
+    font-weight: 900;
+    font-size: 55px;
+    color: rgb(209, 207, 207);
+}
+
+
+.input{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.container{
+    display: grid;
+    place-content: center;
+    margin-top: 25px;
+    
+
+}
+
+#input{
+    height: 29px;
+    border-radius: 15px 0px;
+    padding-left: 10px;
+    outline: none;
+    color: rgb(209, 207, 207);
+    background-color: transparent;
+    border: 2px solid rgb(228, 225, 225);
+    font-size: 20px;
+}
+
+#input::placeholder{
+    color: white;
+    opacity: 65%;
+
+}
+
+.country{
+    margin-left: 290px;  
+    color: rgb(209, 207, 207);
+    font-family: archivo;
+    font-size: 3em;   
+}
+
+.date{
+    margin-top: -80px;
+    margin-left: 80px;
+    color: rgb(209, 207, 207);
+    font-family: archivo;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
+}
+
+.search{
+    border-radius: 5px 5px;
+    height: 39px;
+    background:linear-gradient(0deg, #2fbac6 0%, #ffffff 100%);
+    width: 110px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+
+}
+.search:active{
+    box-shadow: 5px 5px 10px 1px #000000;
+}
+
+.temp{
+    font-family: archivo;
+    color: white;
+    font-size: 76px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.temptype{
+    color: white;
+    font-size: 16px;
+    margin-left: 250px;
+    font-family: archivo-light;
+    margin-top: -50px; 
+}
+
+
+
+@media (min-width: 600px) and (max-width: 12024px) {
+  body,html {      
+     background-image:url(images/weather8.jpg);
+
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1191px) {
+    body,html {
+        background-image:url(images/weather8.jpg);
+        height: 100%;
+    }
+  }
+  
