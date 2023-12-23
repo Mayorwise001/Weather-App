@@ -136,22 +136,24 @@ input:-webkit-autofill:active{
 
     header{
         margin-left: 50px;
-        font-size: 24px;
+        font-size: 14px;
         margin: auto;
     }
 
     #input{
         height: 20px;
-        width: 150px;
+        width: 100px;
     }
 
     #input::placeholder{
-        font-size: 11px;
+        font-size:3px;
     }
 
 .search{
-    width: 70px;
-    font-size: 14px;
+    width: 50px;
+    font-size: 5px;
+    margin-left: -1px;
+    height: 30px;
 }
   }
   
