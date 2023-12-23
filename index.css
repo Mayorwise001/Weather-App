@@ -128,7 +128,7 @@ input:-webkit-autofill:active{
 @media (min-width: 0px) and (max-width: 700px) {
     body,html {
         background-image:url(images/weather8.jpg);
-        height: 200vh;
+        height: 130vh;
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;
@@ -136,7 +136,7 @@ input:-webkit-autofill:active{
 
     header{
         margin-left: 50px;
-        font-size: 14px;
+        font-size: 22px;
         margin: auto;
     }
 
@@ -146,14 +146,18 @@ input:-webkit-autofill:active{
     }
 
     #input::placeholder{
-        font-size:3px;
+        font-size:12px;
     }
 
 .search{
     width: 50px;
-    font-size: 5px;
+    font-size: 12px;
     margin-left: -1px;
     height: 30px;
+}
+
+.country{
+    margin-left: 230px;
 }
   }
   
