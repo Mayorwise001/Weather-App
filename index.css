@@ -129,14 +129,12 @@ input:-webkit-autofill:active{
     body,html {
         background-image:url(images/weather8.jpg);
         height: 130vh;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
+
     }
 
     header{
         margin-left: 50px;
-        font-size: 22px;
+        font-size: 25px;
         margin: auto;
     }
 
@@ -151,7 +149,7 @@ input:-webkit-autofill:active{
 
 .search{
     width: 50px;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: -1px;
     height: 30px;
 }
